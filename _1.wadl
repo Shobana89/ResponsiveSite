@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://wadl.dev.java.net/2009/02">
+  <doc xml:lang="en" title="http://206.202.171.237"/>
+  <resources base="http://206.202.171.237">
+    <resource path="ams/lib/php/manage-archive-tasks.php" id="Manage-archive-tasks.php">
+      <doc xml:lang="en" title="Manage-archive-tasks.php"/>
+      <param name="func" default="import-filtered" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+      <param name="server_id" default="505" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+      <param name="server_address" default="110.138.150.17" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+      <param name="start_time" default="1441592938" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+      <param name="end_time" default="1441592998" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+      <param name="utc_offset" default="-1" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+      <param name="cammask" default="1" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+      <param name="location_id" default="2" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+      <param name="_sys_id" default="1391042522" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+      <param name="lowres_copy" default="no" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+      <param name="repeat" default="0" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+      <param name="collector_tool_id" default="-1" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+      <method name="GET" id="Manage-archive-tasks.php">
+        <doc xml:lang="en" title="Manage-archive-tasks.php"/>
+        <request>
+          <param default="import-filtered" name="func" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+          <param default="505" name="server_id" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+          <param default="110.138.150.17" name="server_address" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+          <param name="start_time" default="1441592938" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+          <param default="1441592998" name="end_time" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+          <param default="-1" name="utc_offset" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+          <param default="1" name="cammask" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+          <param name="location_id" default="2" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+          <param default="1391042522" name="_sys_id" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+          <param default="no" name="lowres_copy" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+          <param default="0" name="repeat" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+          <param default="-1" name="collector_tool_id" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+        </request>
+      </method>
+    </resource>
+  </resources>
+</application>
