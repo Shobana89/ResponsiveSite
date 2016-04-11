@@ -27,7 +27,7 @@ namespace AMS_API_CALL
 
             Program p = new Program();
             p.Get_Status_Only();
-            Console.WriteLine("Hi I am in Git nOw!!!!");
+          
             Console.ReadKey();
 
         }
